@@ -1,0 +1,310 @@
+{
+  "general": {
+    "left": "ซ้าย",
+    "center": "กลาง",
+    "right": "ขวา"
+  },
+  "ui": {
+    "header": {
+      "in-develop": "อยู่ในการพัฒนา / ไม่เสถียร",
+      "waiting-data": "กำลังรอการต่อสู้",
+      "no-data-yet": "ยังไม่มีข้อมูล",
+      "please-do-combat": "โปรดเริ่มการต่อสู้ก่อน"
+    },
+    "menu": {
+      "merge-pet-on": "เปิดการรวมสัตว์เลี้ยง",
+      "merge-pet-off": "ปิดการรวมสัตว์เลี้ยง",
+      "nameblur-on": "เบลอชื่อ",
+      "nameblur-off": "ไม่เบลอชื่อ",
+      "end-encounter": "จบการต่อสู้",
+      "settings": "การตั้งค่า",
+      "reload": "โหลด Overlay ใหม่",
+      "fullscreen": "เต็มหน้าจอ",
+      "screenshot": "ถ่ายภาพหน้าจอ",
+      "donate": "บริจาค"
+    },
+    "config": {
+      "_": "การตั้งค่า",
+      "save": "บันทึก",
+      "execute": "ดำเนินการ",
+      "dialog": {
+        "really": "รีเซ็ตการตั้งค่าเหล่านี้จริงหรือ ?",
+        "apply": "ใช้การตั้งค่านี้ไหม ?",
+        "undone": "สิ่งนี้ไม่สามารถยกเลิกได้!",
+        "yes": "ใช่",
+        "no": "ไม่",
+        "manual-reload": {
+          "title": "ไม่สามารถโหลด Overlay ซ้ำได้!",
+          "content": "โปรดโหลด Overlay ใหม่อีกครั้งด้วยตนเอง"
+        }
+      },
+      "general": {
+        "_": "ทั่วไป",
+        "combine_pet": "การรวมสัตว์เลี้ยง",
+        "split-by-comma": "แบ่งชื่อหลายชื่อด้วย ','",
+        "basic": "พื้นฐาน",
+        "footer-visibility": {
+          "_": "Footer",
+          "show": "Show as normal",
+          "use-header-instead": "Use header, for elements instead",
+          "hide": "ซ่อน"
+        },
+        "footer": {
+          "_": "Footer elements",
+          "rank": "อันดับปัจจุบัน",
+          "rdps": "RDPS",
+          "rhps": "RHPS",
+          "recover": "การรักษาทั้งหมดที่ได้รับ / ความเสียหายที่ได้รับ 🔄"
+        },
+        "reset": "รีเซ็ต",
+        "reset-this": "รีเซ็ตทั้งหมด"
+      },
+      "style": {
+        "_": "สไตล์",
+        "reset-this": "รีเซ็ตสไตล์",
+        "css-help": [
+          "Use CSS values. Can be extended with other attributes with semicolon.",
+          "Use semi-transparent color with <code>rgba(Red, Green, Blue, Alpha)</code>. <br /> Alpha is 0 to 1.",
+          "Use image background with <code>url('Image URL')</code>"
+        ],
+        "image": {
+          "_": "ภาพพื้นหลัง",
+          "help": "The background image takes precedence over specified background color, except transparent pixels. Image URL should be wrapped in <code>url('Image URL')</code>.",
+          "color": "Fill",
+          "image": "Image",
+          "opacity": "Opacity",
+          "filter": "CSS Filter (Advanced)",
+          "default": "Default: "
+        },
+        "layout": "รูปแบบ",
+        "background": "Background",
+        "foreground": "Foreground",
+        "width-applied-only": "Only for tabs setted 'Cell per line' other than 1.",
+        "element": {
+          "nav": "Navbar",
+          "dropdown": "Dropdown menu",
+          "my-row": "My data",
+          "header": "Table header",
+          "table": "Table",
+          "cell": "Cell"
+        },
+        "shadow": "Shadow"
+      },
+      "color": {
+        "_": "สีของตัววัด",
+        "reset-this": "รีเซ็ตสี",
+        "etc": "Etc",
+        "pet-buddy": "สัตว์เลี้ยง / บัดดี้"
+      },
+      "width": {
+        "_": "Column Width",
+        "reset-this": "Reset Widths",
+        "css-help": [
+          "Unit is default 16px, and changed by UI scale.",
+          "The 'Name' column is the first to decrease when the window width decreases."
+        ]
+      },
+      "tab": {
+        "_": "Tab",
+        "title": "Title",
+        "width": "Cell per line",
+        "sortby": "Sort by",
+        "available": "Available columns",
+        "configured": "Configured columns",
+        "widths": [ 0, 1, 2, 3 ]
+      },
+      "i/e": {
+        "_": "Import/Export",
+        "import": "Import",
+        "export": "Export",
+        "copy-this": "Copy everything below:",
+        "paste-here": "Paste the fetched value below:",
+        "save-first": "Save First!!",
+        "export-help": "Some values and values that are the same as the default are not exported.",
+        "config-to-export": "Config to export",
+        "all": "All",
+        "data-fault": "Data is incorrect or broken.",
+        "content-count": "Column count"
+      },
+      "etc": {
+        "_": "More",
+        "others": {
+          "_": "Others",
+          "skill-aliases-help": "Use shorter abbreviations for long skill names like 'The Forbidden Chakra'.",
+          "filter": "Filter",
+          "filter-help": [
+            "FFXIV_Plugin does not identify friends or foe, so these options will try not to display enemies in any way.",
+            "If something is wrong, try disabling all of the options below."
+          ],
+          "unusual-spaces": "Name contains space, but not a pet (Korea Server Only)",
+          "jobless": "Class/Job is empty",
+          "not-combatant": "Not a Disciple of War/Magic"
+        },
+        "css": "CSS"
+      },
+      "info": {
+        "_": "About",
+        "created-by": "Created by",
+        "servers": "Rhamu @ Elemental / Carbuncle @ KR / Chocobo @ KR",
+        "hibiya": "hibiya inemuri / kuriyama hibiya",
+        "support": "Support",
+        "license": "License",
+        "icon-files": "All files under share/img/class,",
+        "privacy": {
+          "_": "Privacy Policy",
+          "list": [
+            "If a problem occurs during operation of this program,<br />information for troubleshooting can be sent to the server.",
+            "Collected information is limited to a minimum amount needed to identify the problem:",
+            "* Program Version<br />* Last Combatant Data<br />* Other information collected by ravenjs"
+          ]
+        }
+      }
+    }
+  },
+  "config": {
+    "style": {
+      "_": "สไตล์",
+      "resize-factor": "UI scale",
+      "body-margin": "Outer margin",
+      "body-font": "Font family",
+      "nav-opacity": "Navbar opacity when inactive",
+      "accent-color": "Accent",
+      "shadow-card": "Window",
+      "shadow-text": "Text",
+      "content-align": "Content text alignment",
+      "font-size-small": "'Small' fontsize",
+      "gauge-height": "Gauge height",
+      "graph-height": "Table line height"
+    },
+    "color": {
+      "_": "Guage Color",
+      "gauge-default": "Default",
+      "gauge-opacity": "Opacity",
+      "position-tank": "Tank",
+      "position-deal": "DPS",
+      "position-heal": "Heal",
+      "pld": "Paladin (Gladiator)",
+      "war": "Warrior (Marauder)",
+      "drk": "Dark Knight",
+      "gnb": "Gunbreaker",
+      "mnk": "Monk (Pugilist)",
+      "drg": "Dragoon (Lancer)",
+      "brd": "Bard (Archer)",
+      "nin": "Ninja (Rogue)",
+      "smn": "Summoner (Arcanist)",
+      "blm": "Black Mage (Thaumaturge)",
+      "mch": "Machinist",
+      "sam": "Samurai",
+      "rdm": "Red Mage",
+      "blu": "Blue Mage",
+      "dnc": "Dancer",
+      "whm": "White Mage (Conjurer)",
+      "sch": "Scholar",
+      "ast": "Astrologian",
+      "smn-pet": "Summoner (Arcanist) Carbuncle/Egi",
+      "sch-pet": "Scholar Egi",
+      "mch-pet": "Machinist Turret",
+      "chocobo": "Chocobo",
+      "limit-break": "Limit Break"
+    },
+    "format": {
+      "language": "Language",
+      "significant_digit": {
+        "_": "Decimal accuracy",
+        "dps": "DPS",
+        "hps": "HPS",
+        "accuracy": "Failure (Miss / Swing)",
+        "critical": "% of Critical hits/heals"
+      },
+      "myname": "My name",
+      "use_short_name": "ลักษณะชื่อผู้เล่น",
+      "use_skill_aliases": "Use skillname aliases",
+      "use_tailing_pct": "Display % after percentage value",
+      "small_lower_numbers": "Smaller font for under-k digits of DPS"
+    },
+    "element": {
+      "narrow_nav": "Narrower Top navigation bar"
+    }
+  },
+  "col": {
+    "i": {
+      "_": "ข้อมูล",
+      "icon": [" ", "Class Icon"],
+      "class": ["อาชีพ", "อาชีพ"],
+      "owner": ["เจ้าของ", "เจ้าของ"],
+      "name": ["ชื่อ", "ชื่อ"]
+    },
+    "deal": {
+      "_": "DPS",
+      "per_second": ["DPS", "per Second"],
+      "pct": ["D%", "Deal %"],
+      "total": ["D.Tot", "Total"],
+      "failure": ["Fail", "Failure (Miss / Swing)"],
+      "accuracy": ["Acc.", "Accuracy (1 - Miss / Swing)"],
+      "swing": ["Hit", "Hits"],
+      "miss": ["Miss", "Misses"],
+      "hitfail": ["HitF", "Hitfail"],
+      "critical": ["CH", "Critical Hit%"],
+      "direct": ["DH", "Direct Hit%"],
+      "crit_direct": ["!!!", "Critical Direct Hit% (!!!)"],
+      "crittypes": ["D/!/!!!", "Direct/Critical/!!! Count"],
+      "max": ["Max", "Maxhit (w/o skillname)"],
+      "maxskill": ["Max", "Maxhit (skillname only)"],
+      "maxhit": ["Maxhit", "Maxhit"],
+      "last10": ["10s", "DPS for Last 10s"],
+      "last30": ["30s", "DPS for Last 30s"],
+      "last60": ["1m", "DPS for Last 1min"],
+      "last180": ["3m", "DPS for Last 3min (Beta)"]
+    },
+    "tank": {
+      "_": "Tank",
+      "damage": ["TakenD", "Damage taken"],
+      "heal": ["HealR", "Healing Received"],
+      "parry": ["Parry", "Parry"],
+      "block": ["Block", "Block"],
+      "threat_delta": ["Th∆", "Threat Delta"]
+    },
+    "heal": {
+      "_": "Heal",
+      "per_second": ["HPS", "per Second"],
+      "pct": ["H%", "Heal %"],
+      "total": ["H.Tot", "Total"],
+      "over": ["OvH%", "Overheal"],
+      "swing": ["Swing", "Swings"],
+      "critical": ["HCrit", "Critical%"],
+      "cure": ["Cure", "Cures"],
+      "max": ["MaxH", "Maxhit (w/o skillname)"],
+      "maxskill": ["MaxHS", "Maxhit (skillname only)"],
+      "maxhit": ["MaxHeal", "Maxhit"]
+    },
+    "etc": {
+      "_": "อื่น ๆ",
+      "powerdrain": ["PDrn", "Powerdrain"],
+      "powerheal": ["PHeal", "Powerheal"],
+      "death": ["ตาย", "จำนวนครั้งที่ตาย"]
+    }
+  },
+  "zone": {
+    "unknown": {}
+  },
+  "skill": {
+    "alias": {
+      "The Forbidden Chakra": "Forb.Chakra",
+      "Spineshatter Dive": "Spine-Dive",
+      "Midare Setsugekka": "Midare",
+      "Hissatsu: Guren": "Guren",
+      "Enchanted Redoublement": "E.Redoubl",
+      "Refulgent Arrow": "Ref.Arrow",
+      "Technical Finish": "Tech Fin",
+      "Single Technical Finish": "1x Tech Fin",
+      "Double Technical Finish": "2x Tech Fin",
+      "Triple Technical Finish": "3x Tech Fin",
+      "Quadruple Technical Finish": "4x Tech Fin",
+      "Standard Finish": "Std Fin",
+      "Single Standard Finish": "1x Std Fin",
+      "Double Standard Finish": "2x Std Fin",
+      "Reverse Cascade": "Rev.Cascade",
+      "Rising Windmill": "Ris.Wndmill"
+    }
+  }
+}
